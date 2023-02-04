@@ -1,3 +1,7 @@
 
 Example/data/corpora.tar.gz
 *.gz
+Homework/HW1/data/corpora/wiki/thwiki_chk.txt
+Homework/HW1/data/df_generator_test.csv
+Homework/HW1/data/df_generator_val.csv
+Homework/HW1/data/df_generator_train.csv
