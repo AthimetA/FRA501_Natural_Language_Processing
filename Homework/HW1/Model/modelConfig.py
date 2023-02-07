@@ -1,7 +1,10 @@
 class FFNNConfig():
     def __init__(self):
         pass
-        
+    
+    # Path parameters
+    data_path = 'data/corpora/BEST'
+
     # Training parameters
     verbose = 1
     batch_size = 512
