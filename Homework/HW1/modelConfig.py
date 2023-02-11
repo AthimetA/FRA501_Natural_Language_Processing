@@ -1,12 +1,13 @@
-class FFNNConfig():
+class ModelBaseConfig():
     def __init__(self):
         pass
     
     # Path parameters
     data_path = 'data/corpora/BEST'
+    log_path = 'tf_logs'
 
     # Training parameters
-    verbose = 1
+    verbose = 2
     batch_size = 512
     epochs = 20
 
@@ -14,7 +15,7 @@ class FFNNConfig():
     input_dim = 21
     output_dim = 1
     
-class FFNNDOConfig(FFNNConfig):
+class FFNNDOConfig(ModelBaseConfig):
     def __init__(self):
         super().__init__()
         
