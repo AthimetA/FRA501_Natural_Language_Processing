@@ -23,4 +23,4 @@ class FFNNDOConfig(ModelBaseConfig):
     batch_size = 1024
     
     # Model parameters
-    dropout = 0.5
+    dropout = 0.2
