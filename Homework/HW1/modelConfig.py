@@ -8,7 +8,7 @@ class ModelBaseConfig():
 
     # Training parameters
     verbose = 2
-    batch_size = 512
+    batch_size = 256
     epochs = 20
 
     # Model parameters
