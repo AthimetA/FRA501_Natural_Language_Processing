@@ -24,3 +24,13 @@ class FFNNDOConfig(ModelBaseConfig):
     
     # Model parameters
     dropout = 0.2
+
+
+class POSConfig():
+
+    log_path = 'tf_logs'
+
+    # Training parameters
+    verbose = 1
+    batch_size = 64
+    epochs = 60
