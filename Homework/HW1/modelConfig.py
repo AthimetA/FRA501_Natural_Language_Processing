@@ -34,3 +34,6 @@ class POSConfig():
     verbose = 1
     batch_size = 64
     epochs = 60
+
+    # Monitor parameters
+    monitor = 'val_loss_val'
