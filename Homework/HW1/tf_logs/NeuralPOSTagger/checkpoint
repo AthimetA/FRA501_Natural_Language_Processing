@@ -1,0 +1,2 @@
+model_checkpoint_path: "NeuralPOSTagger"
+all_model_checkpoint_paths: "NeuralPOSTagger"
