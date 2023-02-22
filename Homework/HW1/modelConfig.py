@@ -28,7 +28,7 @@ class FFNNDOConfig(ModelBaseConfig):
 
 class POSConfig():
 
-    log_path = 'tf_logs'
+    log_path = 'tf_logs/POS'
 
     # Training parameters
     verbose = 1
