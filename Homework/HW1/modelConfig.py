@@ -4,7 +4,7 @@ class ModelBaseConfig():
     
     # Path parameters
     data_path = 'data/corpora/BEST'
-    log_path = 'tf_logs'
+    log_path = 'tf_logs/Token'
 
     # Training parameters
     verbose = 2
